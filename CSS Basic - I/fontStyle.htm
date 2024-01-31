@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font style</title>
+    <style>
+        p{
+            font-size: 30px;
+            font-weight: 700;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: "28Font";
+            font-style: italic;
+            /* font-style: oblique; */
+            /* oblique and italic are similar */
+        }
+
+        /* adding custom font */
+
+        /* declaring the custom font */
+        @font-face {
+            font-family:"28Font";
+            src:url('28 Days Later.ttf') format('truetype');
+        }
+
+        /* declaring second custom font */
+        @font-face {
+            font-family: "3D"; /* use this name to apply */
+            src:url('From Cartoon Blocks.ttf') format('truetype');
+            
+        }
+
+        /* Using the custom font */
+        h3 {
+            font-family: "3D";
+            font-size: 100px;
+            color: purple; 
+            /* background-color: wheat; */
+            font-style: italic; /* doesn't work heheheh */
+        }
+        
+    </style>
+</head>
+<body>
+    <p>This is a paragraph.</p>
+    <h3>Hello Om Raja</h3>
+</body>
+</html>
