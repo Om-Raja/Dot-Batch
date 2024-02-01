@@ -1,0 +1,8 @@
+.box {
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    background-image: radial-gradient(blue, red, rgba(0,200,0, 0.7), rgb(200,205,0));
+    background-image: radial-gradient(circle, red, white, black);
+    background: radial-gradient(closest-corner, red , white, black);
+}
