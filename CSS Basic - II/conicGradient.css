@@ -2,5 +2,6 @@
     width: 300px;
     height: 300px;
     border: 1px solid black;
-    background: conic-gradient(red, yellow, green)
+    background: conic-gradient(red 10deg, yellow 12deg, green 40deg);
+    background: repeating-conic-gradient(red 10deg, yellow 10deg, green 30deg);
 }
